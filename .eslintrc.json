@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": "standard-with-typescript",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "semi": "off",
+        "@typescript-eslint/semi": ["error", "always"],
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "@typescript-eslint/prefer-nullish-coalescing": "off",
+        "@typescript-eslint/prefer-readonly": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/unbound-method": "off",
+        "@typescript-eslint/consistent-type-imports": "off",
+        "@typescript-eslint/no-floating-promises": "off",
+        "object-shorthand": "off",
+        "no-useless-return":"off"
+    }
+}
